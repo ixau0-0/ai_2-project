@@ -1,0 +1,55 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMc4UChXkNtPDy0b2MgJWZp",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ixau0-0/ai_2-project/blob/main/requirment\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "id": "idpIP9L4KADP"
+      },
+      "outputs": [],
+      "source": [
+        "python_package=\"\"\"\" \"NumPy\n",
+        "pandas\n",
+        "matplotlib.pyplot\n",
+        "sklearn.model_selection\n",
+        "sklearn.preprocessing\n",
+        "sklearn.linear_model\n",
+        "sklearn.ensemble\n",
+        "sklearn.neighbors\n",
+        "sklearn.metrics\n",
+        "tensorflow.keras.models\n",
+        "tensorflow.keras.layers\n",
+        "tensorflow.keras.metrics\n",
+        "tensorflow.keras.optimizers\"\"\"\n",
+        "with open(\"requirment.txt\",\"w\") as f:\n",
+        "  f.write(python_package)"
+      ]
+    }
+  ]
+}
